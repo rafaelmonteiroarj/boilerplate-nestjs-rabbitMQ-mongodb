@@ -68,6 +68,16 @@ After running, you can stop the Docker container with
 
 `$ docker-compose down`
 
+## Utils commands
+
+| Command                        | Description                                                                  |
+| ------------------------------ | ---------------------------------------------------------------------------- |
+| nest g module lead modules     | Create a module named `lead.module` inside the `modules/lead` folder         |
+| nest g resolver auth modules   | Create a resolver named `auth.resolver` inside the `modules/auth` folder     |
+| nest g service lead modules    | Create a service named `lead.service` inside the `modules/lead` folder       |
+| nest g controller auth modules | Create a controller named `auth.controller` inside the `modules/auth` folder |
+| nest g --help                  | Check nest CLI options                                                       |
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
