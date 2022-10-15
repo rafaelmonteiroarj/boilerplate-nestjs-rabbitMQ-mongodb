@@ -58,6 +58,16 @@ $ npm run test:e2e
 $ npm run test:cov
 ```
 
+## Docker
+
+There is a `docker-compose.yml` file for starting MongoDB with Docker.
+
+`$ docker-compose up`
+
+After running, you can stop the Docker container with
+
+`$ docker-compose down`
+
 ## Support
 
 Nest is an MIT-licensed open source project. It can grow thanks to the sponsors and support by the amazing backers. If you'd like to join them, please [read more here](https://docs.nestjs.com/support).
